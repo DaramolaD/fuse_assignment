@@ -1,0 +1,130 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding-block: 25px 15px;
+    padding-inline: 20px;
+    background-color: #f2f2f2;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    max-width: 1671.33px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Mona Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 116.94px;
+    height: 33.07px;
+}
+
+.nav_container,
+.toggle_menu {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list>* {
+    font-size: 18px;
+    line-height: 17.41px;
+}
+
+.nav_list a {
+    color: #000000;
+}
+
+.nav_list a:hover {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.nav_link {
+    padding-right: 20px;
+}
+
+.nav_others {
+    font-size: 14px;
+    line-height: 13.54px;
+}
+
+.nav_others>* {
+    cursor: pointer;
+}
+
+.build_btn {
+    background-color: #1A1A1A;
+    outline: none;
+    border: none;
+    border-radius: 100vw;
+    color: #FFF;
+    width: 119px;
+    height: 35px;
+}
+
+.build_btn:hover {
+    background-color: #FFF;
+    color: #1A1A1A;
+    border: 1px solid #1A1A1A;
+}
+
+@media screen and (max-width: 795px) {
+
+    .nav_xl {
+        display: none;
+    }
+
+    .toggle_menu {
+        display: flex;
+        align-items: center;
+        width: 25px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .toggle_menu img {width: 100%;}
+
+    .nav_container {
+        display: flex;
+        position: absolute;
+        top: 75px;
+        padding: 10px;
+        left: 0px;
+        width: 100%;
+        background-color: #f2f2f2;
+        transition: 1.5s all cubic-bezier(.45, .05, .55, .95);
+        z-index: 3;
+        /* left: -1000px; */
+    }
+
+    .nav_container.active {
+        left: 0px;
+    }
+
+    .nav_container,
+    .flex {
+        gap: 30px;
+        flex-direction: column;
+    }
+}

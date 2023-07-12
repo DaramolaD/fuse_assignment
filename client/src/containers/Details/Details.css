@@ -1,0 +1,24 @@
+.details {
+    padding-top: 40px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.details .container {
+    max-width: 826px;
+    width: 100%;
+    padding: 150px 20px;
+}
+
+.coin_item_card {
+    padding: 23px;
+}
+
+@media screen and (max-width: 490px) {
+    .coin_item_card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}

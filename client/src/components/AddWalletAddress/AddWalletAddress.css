@@ -1,0 +1,35 @@
+.addWallet {
+    margin: 0px auto;
+    max-width: 826px;
+    padding: 40px 32px;
+    background-color: #FFFFFF;
+}
+
+.addWallet .container {
+    all: unset;
+}
+.inputs_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27.08px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.input {
+    font-family: 'Mona Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15.47px;
+    color: #BFBFBF;
+    width: 100%;
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+    padding: 16.3px 16.5px;
+    border-radius: 8px;
+}

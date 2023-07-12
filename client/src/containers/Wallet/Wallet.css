@@ -1,0 +1,133 @@
+.wallet {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.wallet .container {
+    max-width: 826px;
+    width: 100%;
+    padding: 150px 20px;
+}
+
+.card_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 48px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.card_btn p {
+    padding-left: 2.5px;
+}
+
+.container_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.balance_card_cont {
+    padding-bottom: 32px;
+}
+
+.balance_card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.value {
+    display: inline;
+    font-size: 28px;
+    line-height: 27.08px;
+    font-weight: 700;
+    color: #000;
+    padding-right: 5px;
+}
+
+.green {
+    color: #1FE000;
+}
+
+.percentage_value {
+    height: 17px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 30px;
+}
+
+.arrow_percentage {
+    width: 7.45px;
+    height: 7.26px;
+}
+
+/* Reusable */
+.bg {
+    background-color: #FFFFFF;
+}
+
+.card_title_s {
+    line-height: 17.41px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padding-inline {
+    padding-inline: 34px;
+    padding-top: 33px;
+}
+
+.coin_details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.coin_icon {
+    width: 41.84px;
+    height: 41.84px;
+}
+
+.coin_name {
+    font-size: 18px;
+    line-height: 17.41px;
+    font-weight: 600;
+    color: #000;
+}
+
+.coin_price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19.34px;
+}
+
+.margin-btm {
+    margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 490px) {
+    .balance_card_cont {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .card_btn {
+        width: 100%;
+    }
+}

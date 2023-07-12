@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  all: unset;
+  font-family: 'Mona Sans', sans-serif;
+  background-color: #F2F2F2;
+}
+.container {
+  max-width: 1671.33px;
+  width: 100%;
+  margin: 0px auto;
+}

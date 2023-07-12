@@ -1,0 +1,34 @@
+.home {
+    padding-top: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .container {
+    max-width: 1671.33px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 150px 20px;
+}
+
+.show_msg {
+    margin: 0px auto;
+    max-width: 826px;
+    width: 100%;
+    padding: 40px 32px;
+    background-color: #FFFFFF;
+}
+.show_msg p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15.47px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #000;
+    width: max-content;
+    border-radius: 8px;
+    padding: 16.5px;
+    cursor: pointer;
+}

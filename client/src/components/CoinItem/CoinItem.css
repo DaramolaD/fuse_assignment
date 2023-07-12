@@ -1,0 +1,13 @@
+
+
+.coin_item {
+    padding: 11px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.coin_item:nth-child(2n) {
+    background-color: #FFFFFF;
+}
+.cont_bg {
+    background-color: #F2F2F2;
+}
